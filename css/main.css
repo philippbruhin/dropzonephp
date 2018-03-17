@@ -97,21 +97,65 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#wrapper {
+    margin: 2em;
+    height: 100%;
+}
+
+#wrapper .pagetitle{
+    text-align: center;
+}
+
+.dropzone { border: 2px dashed #be0000; border-radius: 5px; background: white; min-height: 30%;}
+.dropzone .dz-message { font-weight: 400; }
+.dropzone .dz-message .note { font-size: 0.8em; font-weight: 200; display: block; margin-top: 1.4rem; }
+
+*, *:before, *:after { box-sizing: border-box; }
 
 
+html, body {
+    font-family: Roboto, "Open Sans", sans-serif; font-size: 20px; font-weight: 300; line-height: 1.4rem; background: #F3F4F5; color: #646C7F; text-rendering: optimizeLegibility; }
 
 
+h1, h2, h3, table th, table th .header { font-size: 1.8rem; color: #be0000; -webkit-font-smoothing: antialiased; line-height: 2.2rem; }
 
+h1, h2, h3 { margin-top: 2.8rem; margin-bottom: 1.4rem; }
 
+h2 { font-size: 1.4rem; }
 
+h1.anchor, h2.anchor { margin: 0; padding: 0; height: 0; overflow: hidden; visibility: hidden; }
 
+table th { font-size: 1.4rem; color: #646C7F; }
 
+ul, ol { list-style-position: inside; }
 
+a { color: #be0000; text-decoration: none; }
+a:hover { border-bottom: 2px solid #be0000; }
 
+p { margin: 1.4rem 0; }
 
+strong { font-weight: 400; }
 
+em { font-style: italic; }
 
+code { font-family: Inconsolata, monospace; background: rgba(0, 135, 247, 0.04); padding: 0.2em 0.4em; }
 
+.highlight code, td:first-child code { background: none; padding: 0; }
+
+aside { font-size: 0.8em; color: rgba(0, 0, 0, 0.4); }
+
+hr { border: none; background: none; position: relative; height: 2.8rem; }
+hr:after { content: ""; position: absolute; top: 1.4rem; left: 0; right: 0; height: 1px; background: rgba(0, 0, 0, 0.1); }
+
+ul li { list-style-type: disc; padding-top: 0.7rem; padding-bottom: 0.7rem; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+ul li:last-of-type { border: none; }
+
+.highlight { padding: 1.4rem; overflow: auto; background: rgba(100, 108, 128, 0.04); margin-top: 2.8rem; margin-bottom: 2.8rem; }
+
+.bitcoin { overflow: auto; }
+
+blockquote { color: #be0000; font-size: 1.2rem; line-height: 2rem; -webkit-font-smoothing: antialiased; margin-top: 2.8rem; margin-bottom: 2.8rem; }
+blockquote a { border-bottom: 1px solid #be0000; }
 
 /* ==========================================================================
    Helper classes
