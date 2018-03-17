@@ -1,2 +1,2 @@
-# dropzonephp
-Fileuploader based on dropzone.js and php
+# Dropzonephp
+Basic script for uploading videos via HTML5, JS and PHP.
